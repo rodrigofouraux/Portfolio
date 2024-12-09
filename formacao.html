@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfólio pessoal Rodrigo Fouraux </title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #6e6850;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .img_sobre img {
+            width: 100%;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #6e6850;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #6e6850;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #6e6d50 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .img_sobre {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Rodrigo Pinto Fouraux</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="sobre-mim.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação educacional</a></li>
+            <li><a href="portifolio.html">Portifolio</a></li>
+            <li><a href="contatos.html">contatos</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="img_sobre">
+            <img src="imagens/Imagem do WhatsApp de 2024-12-09 à(s) 11.16.55_f11c5718.jpg" alt="Descrição da imagem" class="imagem-reduzida">
+            
+            <div class="imagem-reduzida">
+                <p><strong>Ocupação</strong> Estudante</p>
+                <p>
+                    <strong>RU</strong>
+                    4960020
+                </p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Rodrigo Pinto Fouraux
+            </h1>
+            <p>
+
+            </p> Ensino medio Completo e cursando Tecnologia em Banco de Dados
+
+           
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Trabalho de Fundamentos de Desenvolvimento Web </h1>
+    </footer>
+    </div>
+</body>
+
+</html>
